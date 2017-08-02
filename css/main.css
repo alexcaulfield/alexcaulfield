@@ -1,0 +1,33 @@
+/* Webfont: Lato-Medium */@font-face {
+    font-family: 'LatoWebMedium';
+    src: url('lato/fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
+    src: url('lato/fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('lato/fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('lato/fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
+         url('lato/fonts/Lato-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.left {
+    margin-left: 32%;
+}
+
+.right {
+    margin-right: 32%;
+}
+
+.main {
+    background-color: #7bbdd2;
+    font-family: 'Lato-Medium';
+}
+
+.navbar-logo {
+    padding-top: 3px;
+    width: 35%;
+}
+
+.full {
+    width: 100%;
+}

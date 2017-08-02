@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="lato/latofonts.css"  media="screen,projection"/>
+
+    <!--Custom styling-->
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+
+    <title>Alex Caulfield's Portfolio</title>
+</head>
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    <nav class="main">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center"><img src="images/signature.png" class="navbar-logo"></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">About Me</a></li>
+            <li><a href="badges.html">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/nh.jpg" class="full"></div>
+    </div>
+
+  <div id="resume" class="section scrollspy">
+    <div class="row container">
+        <img src="images/resume.png" class="full">
+    </div>
+  </div>
+
+  <div id="portfolio" class="section scrollspy white">
+    <div class="row container">
+        <h2>Portfolio</h2>
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+        <h2>About Me</h2>
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+        <h2>Contact</h2>
+    </div>
+  </div>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
+    });
+    </script>
+
+</body>
+</html>
