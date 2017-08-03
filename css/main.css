@@ -10,22 +10,9 @@
     text-rendering: optimizeLegibility;
 }
 
-.left {
-    margin-left: 32%;
-}
-
-.right {
-    margin-right: 32%;
-}
-
 .main {
     background-color: #7bbdd2;
     font-family: 'Lato-Medium';
-}
-
-.navbar-logo {
-    padding-top: 3px;
-    width: 35%;
 }
 
 .full {
