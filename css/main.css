@@ -10,11 +10,41 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'Avenir'
+    src: url('avenir/AvenirNextLTPro-Regular.otf') format('opentype');
+}
+
 .main {
     background-color: #7bbdd2;
+    font-family: 'Avenir';
+    font-weight: bold;
+}
+
+.head {
     font-family: 'Lato-Medium';
+    text-shadow: 3px 3px black;
+}
+.clean {
+    font-family: 'Avenir';
+    font-weight: bold;
 }
 
 .full {
     width: 100%;
+}
+
+.center {
+    margin-top: 17%;
+}
+
+.brand-logo img {
+    height: 64px;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 18px;
 }
