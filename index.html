@@ -28,8 +28,8 @@
         <div class="nav-wrapper">
         <div class="container">
           <a href="#" class="brand-logo"><img src="images/signature.png"></a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down ">
             <li><a href="#resume">Resume</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About Me</a></li>
@@ -44,7 +44,7 @@
         <div class="parallax"><img src="images/nh.jpg" class="full"></div>
         <div class="center white-text">
            <h1 class="head">ALEX CAULFIELD</h1>
-           <p class="clean">I'm a software engineer and cognitive scientist with experience in full-stack development, design, marketing, and special product creation.</p>
+           <p class="clean">I'm a software engineer and cognitive scientist with experience in full-stack web development, design, marketing, and product creation.</p>
         </div>
     </div>
 
@@ -141,6 +141,7 @@
 
     <script type="text/javascript">
     $(document).ready(function(){
+        $('.button-collapse').sideNav();
         $('.scrollspy').scrollSpy({scrollOffset: 50});
         $('.parallax').parallax();
     });
