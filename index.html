@@ -11,6 +11,8 @@
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="lato/latofonts.css"  media="screen,projection"/>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Custom styling-->
     <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
@@ -30,8 +32,8 @@
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#resume">Resume</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="sass.html">About Me</a></li>
-            <li><a href="badges.html">Contact</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           </div>
         </div>
@@ -47,6 +49,10 @@
     </div>
 
   <div id="resume" class="section scrollspy">
+    <div class="button">
+        <a class="waves-effect waves-light btn" href="images/Alex_Caulfield_Resume.pdf">Download pdf</a>
+    </div>
+
     <div class="row container">
         <img src="images/resume.png" class="full">
     </div>
@@ -55,18 +61,81 @@
   <div id="portfolio" class="section scrollspy white">
     <div class="row container">
         <h2>Portfolio</h2>
+            <div class="row">
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="images/mix-master.png">
+                      <span class="card-title">Mix Master</span>
+                    </div>
+                    <div class="card-content">
+                      <p>A game to bring out your inner DJ. Mix Master allows you to pick songs in a DJ set based on genre, and you are scored on how well the songs fit together in a set, giving you the opportunity to be a club DJ in your own bedroom.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://mix-master-dj.herokuapp.com/">Play now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="images/car-interface.gif">
+                      <span class="card-title">Self-Driving Car UI</span>
+                    </div>
+                    <div class="card-content">
+                      <p>A game to bring out your inner DJ. Mix Master allows you to pick songs in a DJ set based on genre, and you are scored on how well the songs fit together in a set, giving you the opportunity to be a club DJ in your own bedroom.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://github.com/alexcaulfield/car-interface">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
     </div>
   </div>
 
-  <div class="section white">
+  <div id="about" class="section scrollspy white">
     <div class="row container">
         <h2>About Me</h2>
+        <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/guitar.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Music<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://soundcloud.com/iamtrac">SoundCloud</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Music<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/ultimate.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ultimate<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://www.tuftsmensultimate.org/">Tufts Men's Ultimate Website</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Ultimate<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+          </div>
     </div>
   </div>
 
-  <div class="section white">
+  <div id="contact" class="section scrollspy white">
     <div class="row container">
-        <h2>Contact</h2>
+        <h2>Get in touch</h2>
+        <a href="mailto:alex@alexcaulfield.com" class="fa fa-envelope"></a>
+        <a href="https://github.com/alexcaulfield" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/alexandercaulfield/" class="fa fa-linkedin"></a>
     </div>
   </div>
 

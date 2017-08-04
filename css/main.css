@@ -25,9 +25,23 @@
     font-family: 'Lato-Medium';
     text-shadow: 3px 3px black;
 }
+
 .clean {
     font-family: 'Avenir';
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 1%;
+    background-color: #7bbdd2;
+}
+
+.button {
+    text-align: center;
 }
 
 .full {
@@ -42,9 +56,12 @@
     height: 64px;
 }
 
-p {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    font-size: 18px;
+.fa {
+    padding: 20px;
+    margin-right: 80px;
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #7bbdd2;
 }
