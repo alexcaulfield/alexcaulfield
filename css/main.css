@@ -26,6 +26,11 @@
     text-shadow: 3px 3px black;
 }
 
+.circle {
+    max-height: 175px;
+    border:5px solid white;
+}
+
 .clean {
     font-family: 'Avenir';
     font-weight: bold;
